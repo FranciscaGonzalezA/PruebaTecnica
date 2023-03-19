@@ -1,0 +1,32 @@
+.container {
+    border: .15vw solid rgba(141, 139, 139, 0.233);
+    margin: 0.5em 4em 0.5em 4em;
+    display: center;
+}
+
+thead {
+    background-color: #3564ca23;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+thead tr th {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table tbody tr th {
+    text-align: left;
+    font-weight: normal;
+}

@@ -1,0 +1,51 @@
+form {
+    border: .15vw solid black;
+    padding: 1%;
+}
+
+form label {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    margin-bottom: 1vw;
+}
+
+form fieldset input {
+    display: inline;
+    justify-content: flex-start;
+    width: 16.6666666666666%;
+    margin-bottom: 1vw;
+}
+
+form input:not(#nombre,#femenino,#masculino), textarea, select {
+    display: inline-block;
+    width: 50%;
+    margin-right: 20%;
+    margin-bottom: 1vw;
+}
+
+input, textarea, select {
+    border-radius: 5px;
+}
+
+.boton {
+    display: inline-block;
+    margin-left: 85%;
+}
+.boton #volver {
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    border: .15vw solid gray;
+}
+
+.boton #guardar {
+    border-radius: 5px;;
+    background-color: rgb(71, 165, 247);
+    border: .15vw solid rgb(71, 165, 247);
+    color: white;
+}
+
+body {
+    margin: 0.5em 2em 0.5em 2em;
+    display: center;
+}
