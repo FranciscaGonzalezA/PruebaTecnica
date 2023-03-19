@@ -1,7 +1,8 @@
 import React from "react";
 import "./Formulario.css";
 
-/* Hace falta el uso de hooks, para conectar a la base y guardar datos */
+/* Hace falta el uso de hooks, para conectar a la base y guardar datos, 
+  además de las constantes necesarias para manipular los datos */
 
 <link rel="stylesheet" href="Formulario.css" />
 const UserFormComponent = () => {
